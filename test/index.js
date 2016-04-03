@@ -40,7 +40,7 @@ describe('bemhint-fs-naming', function() {
 
         return plugin.forEntities([entity], config).then(function() {
             entity.addError.should.have.been.calledWith({
-                msg: 'File in not in BEM notation',
+                msg: 'File is not in BEM notation',
                 path: path.join(blockPath, nonBEMFilename)
             });
         });
