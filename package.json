@@ -1,17 +1,27 @@
 {
   "name": "bemhint-fs-naming",
   "version": "1.0.0",
-  "description": "",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Plugin for bemhint which finds files written not in BEM notation",
+  "author": "Eugene Gavryushin <job.egavr@yandex.ru>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bemhint/bemhint-fs-naming.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "bemhint",
+    "plugin",
+    "fs",
+    "naming"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
   "dependencies": {
     "bem-naming": "^1.0.1",
     "lodash": "^4.7.0",
     "q": "^1.4.1",
     "q-io": "^1.13.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
