@@ -21,7 +21,14 @@
     "q": "^1.4.1",
     "q-io": "^1.13.2"
   },
+  "devDependencies": {
+    "bemhint": "^0.6.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/"
   }
 }
