@@ -1,0 +1,1 @@
+# bemhint-fs-naming

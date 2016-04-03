@@ -1,0 +1,17 @@
+{
+  "name": "bemhint-fs-naming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bem-naming": "^1.0.1",
+    "lodash": "^4.7.0",
+    "q": "^1.4.1",
+    "q-io": "^1.13.2"
+  }
+}
